@@ -4,6 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/workp/AndroidStudioProjects/SportsTestApp/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/workp/AndroidStudioProjects/SportsTestApp/app/src/main/res/layout/fragment_start.xml" value="0.2265625" />
+        <entry key="..\:/Users/workp/AndroidStudioProjects/SportsTestApp/app/src/main/res/layout/fragment_veb_view.xml" value="0.4" />
         <entry key="..\:/Users/workp/AndroidStudioProjects/SportsTestApp/app/src/main/res/layout/item_mock_fragment.xml" value="0.1" />
         <entry key="..\:/Users/workp/AndroidStudioProjects/SportsTestApp/app/src/main/res/layout/mock_fragment.xml" value="0.25416666666666665" />
       </map>

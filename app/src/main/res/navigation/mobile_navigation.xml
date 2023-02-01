@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/moile_navigation"
+    app:startDestination="@id/startFragment">
+
+    <fragment
+        android:id="@+id/mockNewsFragment"
+        android:name="ru.sergsports.androidcource.sporttestapp.presentation.mockview.MockNewsFragment"
+        android:label="mock_fragment"
+        tools:layout="@layout/mock_fragment" />
+    <fragment
+        android:id="@+id/vebViewFragment"
+        android:name="ru.sergsports.androidcource.sporttestapp.presentation.vebview.WebViewFragment"
+        android:label="fragment_veb_view"
+        tools:layout="@layout/fragment_veb_view" />
+    <fragment
+        android:id="@+id/startFragment"
+        android:name="ru.sergsports.androidcource.sporttestapp.presentation.startfragment.StartFragment"
+        android:label="fragment_start"
+        tools:layout="@layout/fragment_start" >
+        <action
+            android:id="@+id/action_startFragment_to_mockNewsFragment"
+            app:destination="@id/mockNewsFragment" />
+        <action
+            android:id="@+id/action_startFragment_to_vebViewFragment"
+            app:destination="@id/vebViewFragment" />
+    </fragment>
+</navigation>

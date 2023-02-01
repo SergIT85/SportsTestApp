@@ -29,7 +29,6 @@ object MockRepository {
         @SuppressLint("RestrictedApi")
         val headLineList = listOf(
             context.getString(R.string.news1),
-            context.getString(R.string.news1),
             context.getString(R.string.news2),
             context.getString(R.string.news3),
             context.getString(R.string.news4),
