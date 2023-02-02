@@ -46,9 +46,22 @@ class WebViewFragment : Fragment(R.layout.fragment_veb_view)  {
 
         Log.d("TAGSDF", "WEBView - Loading target URL: $urlAddress")
         val webActivity = binding.webView
+
         webActivity.webViewClient = WebViewClient()
-        webActivity.settings.javaScriptEnabled = true
-        webActivity.settings.domStorageEnabled = true
+
+        with(webActivity.settings) {
+            javaScriptEnabled = true
+            domStorageEnabled = true
+            javaScriptCanOpenWindowsAutomatically = true
+            loadWithOverviewMode = true
+            useWideViewPort = true
+            databaseEnabled = true
+            setSupportZoom(false)
+            allowFileAccess = true
+            allowContentAccess = true
+            loadWithOverviewMode = true
+            useWideViewPort = true
+        }
 
         CookieManager.getInstance().setAcceptThirdPartyCookies(webActivity, true)
         CookieManager.getInstance().flush()
