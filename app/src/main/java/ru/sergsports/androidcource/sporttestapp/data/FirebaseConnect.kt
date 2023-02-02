@@ -8,7 +8,7 @@ import kotlinx.coroutines.delay
 
 
     var firstUrlFB = ""
-    suspend fun firebaseConnect() : String {
+    suspend fun firebaseConnect() : String {/*
         val remoteConfig: FirebaseRemoteConfig = Firebase.remoteConfig
         // тут возможно надо поменять дефолтное значение
         //remoteConfig.setDefaultsAsync
@@ -16,7 +16,9 @@ import kotlinx.coroutines.delay
             minimumFetchIntervalInSeconds = 3600
         }
         remoteConfig.setConfigSettingsAsync(configSettings)
-        return firebaseConnectSimple(remoteConfig)
+        return firebaseConnectSimple(remoteConfig)*/
+        delay(1500)
+        return "https://dzen.ru/"
     }
 
     suspend fun firebaseConnectSimple (remoteConfig: FirebaseRemoteConfig): String {

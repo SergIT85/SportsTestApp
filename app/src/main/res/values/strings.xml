@@ -19,6 +19,8 @@
     <string name="news14" tools:ignore="StringEscaping">Football Newcastle transfer rumours: Forest make approach to sign Shelvey With the 2023 January transfer window now open, we round up Newcastle done deals, plus the players linked with moves in and out of St James Park.</string>
     <string name="news15" tools:ignore="StringEscaping">Newcastle have signed Anthony Gordon from Everton Gordon seals £45m Newcastle move  Tells Everton fans stick by the team Newcastle have completed the £45m transfer of Anthony Gordon from Everton making him the club second most expensive signing.</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment">Для работы приложения необходим доступ к сети</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 
 </resources>
